@@ -29,7 +29,7 @@ const authRoutes = require("./routers/authRoutes");
 
 app.use("/api/auth", authRoutes);
 
-const taskRoutes = require("./routes/taskRoutes");
+const taskRoutes = require("./routers/taskRoutes");
 
 app.use("/api/tasks", taskRoutes);
 
