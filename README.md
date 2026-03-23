@@ -1,20 +1,22 @@
- Blog API
+Task Management API
 
-A RESTful API built with Node.js, Express, and MongoDB for managing blog posts and comments.
+A RESTful API built with Node.js, Express, and MongoDB for managing user tasks with categories, deadlines, and completion tracking.
 
 
 
- Features
+Features
 
 * User Authentication (Register & Login)
 * JWT-based Authorization
-* Create, Read, Update, Delete blog posts
-* Comment system on posts
-* Role-based access control (User/Admin)
+* Create, Read, Update, Delete tasks
+* Task categorization
+* Deadline management
+* Mark tasks as complete or incomplete
+* User-specific task management
 
 
 
- Stack
+Tech Stack
 
 * Node.js
 * Express.js
@@ -24,13 +26,13 @@ A RESTful API built with Node.js, Express, and MongoDB for managing blog posts a
 
 
 
- Installation
+Installation
 
 1. Clone the repository:
-   git clone https://github.com/Izani-io/blog-api.git
+   git clone https://github.com/YOUR_USERNAME/task-api.git
 
 2. Navigate into the project:
-   cd blog-api
+   cd task-api
 
 3. Install dependencies:
    npm install
@@ -43,32 +45,31 @@ A RESTful API built with Node.js, Express, and MongoDB for managing blog posts a
 5. Run the server:
    npm run dev
 
+---
 
+API Endpoints
 
- API Endpoints
-
- Auth
+Auth
 
 * POST /api/auth/register
 * POST /api/auth/login
 
- Posts
+Tasks
 
-* GET /api/posts
-* GET /api/posts/:id
-* POST /api/posts
-* PUT /api/posts/:id
-* DELETE /api/posts/:id
+* POST /api/tasks
+* GET /api/tasks
+* GET /api/tasks/:id
+* PUT /api/tasks/:id
+* DELETE /api/tasks/:id
 
-Comments
 
-* POST /api/comments/:postId
-* GET /api/comments/:postId
-* DELETE /api/comments/:commentId
+Live URL
 
----
 
- Live URL
+Author
+
+Built by Israel Izani
+
 
 
 
