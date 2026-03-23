@@ -45,7 +45,7 @@ Installation
 5. Run the server:
    npm run dev
 
----
+
 
 API Endpoints
 
@@ -65,14 +65,9 @@ Tasks
 
 Live URL
 
+https://task-api-rfhz.onrender.com
+
 
 Author
-
 Built by Israel Izani
 
-
-
-
- Author
-
-Built by Israel Izani
