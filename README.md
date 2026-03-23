@@ -29,7 +29,7 @@ Tech Stack
 Installation
 
 1. Clone the repository:
-   git clone https://github.com/YOUR_USERNAME/task-api.git
+   git clone https://github.com/Izani-io/task-api.git
 
 2. Navigate into the project:
    cd task-api
